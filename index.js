@@ -49,12 +49,3 @@ mongoose
   .catch((error) => console.log(error));
 
 
-/* mongoose.connect(process.env.URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
-  .then(() => {
-    app.listen(process.env.PORT || 3000, () => {
-      console.log(`server is running on port: 3000`);
-    })
-  }).catch(err => console.log(err)) */
