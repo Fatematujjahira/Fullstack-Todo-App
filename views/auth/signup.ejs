@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>signup</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/signup.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="signUp">
+      <h1 class="text-center text-uppercase mt-5">SIGNUP</h1>
+      <form method="post" accept="signup" enctype="application/x-www-form-urlencoded">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input name="password" type="password" class="form-control" id="exampleInputPassword1" />
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+        <p class="text-center text-secondary mt-1">Already Registered ? <a href="/login">login</a></p>
+    </div>
+    </form>
+  </div>
+  </div>
+</body>
+
+</html>
