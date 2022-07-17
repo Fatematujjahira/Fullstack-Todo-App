@@ -17,7 +17,7 @@ const app = express();
 app.set("view engine", "ejs");
 dotenv.config();
 
-/* middleware; */
+/* middleware */
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser(process.env.COOKIE_SECRETE));
