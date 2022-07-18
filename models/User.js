@@ -1,7 +1,7 @@
-/* dependencies */
+// dependencies //
 const { Schema, model } = require('mongoose');
 
-/* User Schema */
+// User Schema 
 const userSchema = new Schema({
   name: {
     type: String,
@@ -21,9 +21,9 @@ const userSchema = new Schema({
   }
 }, { timestamps: true })
 
-/* model */
+// model
 const User = model('User', userSchema);
 
 
-/* export */
+//export 
 module.exports = User;

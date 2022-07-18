@@ -1,11 +1,16 @@
 body {
-  background-image: url("./../images/signin.jpg");
+  background-image: url("./../images/abstract-blue-and-white-geometric-background-free-vector.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .signUp {
-  max-width: 400px;
+  max-width: 450px;
   width: 100;
   margin: 50px auto;
+  border-radius: 10px;
+  border: 2px solid rgb(81, 168, 250);
+  box-shadow: 1px 1px 6px 7px #b4d6ee;
+  padding: 20px 40px;
+  background-color: rgba(70, 158, 241, 0.425);
 }
